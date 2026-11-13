@@ -1,59 +1,107 @@
+<!--
+    Centria Edu - Basics of Web Development
+
+    Original author: Ville Heikkiniemi
+    Modified by: Student Name
+    Last modified: 2026-08-11
+
+    Based on the original course template.
+
+    https://vheikkiniemi.github.io/thiscanbedeleted/s4/
+-->
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Centria EDU - Home</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="author" content="Ville Heikkiniemi">
     <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Centria Edu | Basics of Web Development</title>
 </head>
+
 <body>
 
     <header>
-        <div class="navbar">
-            <div class="logo">
-                centria <span>edu</span>
-            </div>
-
+        <div class="container">
             <nav>
-                <a href="index.html">Home</a>
-                <a href="#topics">Topics</a>
-                <a href="#about">About</a>
-                <a href="gallery.html">Gallery</a>
+                <div class="logo">
+                    centria <span>edu</span>
+                </div>
+
+                <ul>
+                    <li><a href="#topics">Ahtasham Hussain</a></li>
+                    <li><a href="index.html"><strong>Home</strong></a></li>
+                    <li><a href="#topics">Topics</a></li>
+
+                    
+
+                    <li><a href="#">About</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
             </nav>
         </div>
     </header>
 
     <main>
+
         <section class="hero">
-            <p class="subtitle">BASICS OF WEB DEVELOPMENT</p>
+            <div class="container">
+                <div class="hero-content">
 
-            <h1>Learn how the<br>web works.</h1>
+                    <span class="label">Basics of Web Development</span>
 
-            <p class="description">
-                Start from HTML and CSS and gradually build modern, responsive
-                and interactive web applications.
-            </p>
+                    <h1>
+                        Learn how the web works.
+                    </h1>
 
-            <a href="gallery.html" class="button">
-                Start learning
-            </a>
+                    <p>
+                        Start from HTML and CSS and gradually build modern,
+                        responsive and interactive web applications.
+                    </p>
+
+                    <a href="#topics" class="button">
+                        Start learning
+                    </a>
+
+                </div>
+            </div>
         </section>
 
-        <section id="topics" class="info-section">
-            <h2>Topics</h2>
-            <p>Explore the basics of HTML, CSS and web development.</p>
+        <section class="topics" id="topics">
+            <div class="container">
+
+                <h2>What we will learn</h2>
+
+                <div class="cards">
+
+                    <article class="card">
+                        <h3>HTML</h3>
+                        <p>
+                            Learn how to structure web pages using semantic HTML.
+                        </p>
+                    </article>
+
+                    <article class="card">
+                        <h3>CSS</h3>
+                        <p>
+                            Learn how to style layouts, colors, typography and
+                            responsive interfaces.
+                        </p>
+                    </article>
+
+                </div>
+            </div>
         </section>
 
-        <section id="about" class="info-section">
-            <h2>About</h2>
-            <p>Learn the fundamentals of building modern websites.</p>
-        </section>
     </main>
 
     <footer>
-        <p>Modified by: Ahtasham Hussain</p>
+        <div class="container">
+          <p>&copy; Ahtasham Hussain 2026 Centria Edu</p>
+        </div>
     </footer>
 
 </body>
